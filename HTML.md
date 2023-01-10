@@ -19,7 +19,7 @@ Syntax
 Content is placed between tags to display data on the web page.
 
 
-3) Do all HTML tags have an end tag?
+3) Do all HTML tags have an end tag?  
 
 No. There are some HTML tags that don't need a closing tag. For example: <image> tag, <br> tag. More details.
 
