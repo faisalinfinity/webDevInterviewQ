@@ -62,3 +62,38 @@ id                      --> 100
 class,pseudo classes    --> 10
 tag,pseudo elements     --> 1
 universal               --> 0
+
+12) How to create a hyperlink in HTML?
+The HTML provides an anchor tag to create a hyperlink that links one page to another page. These tags can appear in any of the following ways:
+
+Unvisited link - It is displayed, underlined and blue.
+Visited link - It is displayed, underlined and purple.
+Active link - It is displayed, underlined and red.
+
+13) Which HTML tag is used to display the data in the tabular form?
+The HTML table tag is used to display data in tabular form (row * column). It also manages the layout of the page, e.g., header section, navigation bar, body content, footer section. Here is the list of tags used while displaying the data in the tabular form:
+
+Tag	Description
+<table>	It defines a table.
+<tr>	It defines a row in a table.
+<th>	It defines a header cell in a table.
+<td>	It defines a cell in a table.
+<caption>	It defines the table caption.
+<colgroup>	It specifies a group of one or more columns in a table for formatting.
+<col>	It is used with <colgroup> element to specify column properties for each column.
+<tbody>	It is used to group the body content in a table.
+<thead>	It is used to group the header content in a table.
+<tfooter>	It is used to group the footer content in a table.
+
+14) What are some common lists that are used when designing a page?
+There are many common lists which are used to design a page. You can choose any or a combination of the following list types:
+
+Ordered list - The ordered list displays elements in numbered format. It is represented by <ol> tag.
+Unordered list - The unordered list displays elements in bulleted format. It is represented by <ul> tag.
+Definition list - The definition list displays elements in definition form like in dictionary. The <dl>, <dt> and <dd> tags are used to define description list.
+
+15) What is the difference between HTML elements and tags?
+HTML elements communicate to the browser to render text. When the elements are enclosed by brackets <>, they form HTML tags. Most of the time, tags come in a pair and surround content.
+
+16) What is semantic HTML?
+Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is used for italic. Instead of these we use <strong></strong> and <em></em> tags
