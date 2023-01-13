@@ -97,3 +97,43 @@ HTML elements communicate to the browser to render text. When the elements are e
 
 16) What is semantic HTML?
 Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is used for italic. Instead of these we use <strong></strong> and <em></em> tags
+
+17) Define flex and Grid property and its difference ?
+
+The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. 
+
+18) Difference between var , let and const ?
+
+### VAR
+-> The scope of a var variable is functional scope.
+-> It can be updated and re-declared into the scope.
+-> It can be declared without initialization.
+-> It can be accessed without initialization as its default value is “undefined”.
+-> hoisting done, with initializing as ‘default’ value
+
+### LET
+-> The scope of a let variable is block scope.
+-> It can be updated but cannot be re-declared into the scope.
+-> It can be declared without initialization.
+-> It cannot be accessed without initialization otherwise it will give ‘referenceError’.
+-> Hoisting is done , but not initialized (this is the reason for the error when we access the let variable before declaration/initialization
+
+### CONST
+-> The scope of a const variable is block scope.
+-> It cannot be updated or re-declared into the scope.
+-> It cannot be declared without initialization.
+-> It cannot be accessed without initialization, as it cannot be declared without initialization.
+-> Hoisting is done, but not initialized (this is the reason for error when we access the const variable before declaration/initialization
+
+
+19) Difference between Regular function and Arrow function ?
+
+-> Use of this keyword: Unlike regular functions, arrow functions do not have their own this. 
+-> Availability of arguments objects: Arguments objects are not available in arrow functions, but are available in regular functions. 
+-> Using new keyword: Regular functions created using function declarations or expressions are ‘constructible’ and ‘callable’. Since regular functions are constructible, they can be called using the ‘new’ keyword. However, the arrow functions are only ‘callable’ and not constructible. Thus, we will get a run-time error on trying to construct a non-constructible arrow function using the new keyword.
+
+20) What is debouncing ?
+
+Debouncing is a programming pattern or a technique to restrict the calling of a time-consuming function frequently, by delaying the execution of the function until a specified time to avoid unnecessary CPU cycles, and API calls and improve performance.
+
+A Debounce function is a higher-order function that returns another function, to create closure around the function parameters (func, timeout) and the timer variable.
